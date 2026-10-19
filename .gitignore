@@ -1,0 +1,75 @@
+# ============================================================
+# HOSPITAL RECEPTION SYSTEM
+# FILE: .gitignore
+# ============================================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+hospital/
+venv/
+env/
+.venv/
+ENV/
+
+# SQLite database
+hospital.db
+hospital.db-journal
+hospital.db-shm
+hospital.db-wal
+*.sqlite
+*.sqlite3
+
+# Environment configuration
+.env
+.env.local
+.env.production
+.env.development
+
+# Generated receipts and reports
+generated/receipts/*
+generated/reports/*
+!generated/receipts/.gitkeep
+!generated/reports/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

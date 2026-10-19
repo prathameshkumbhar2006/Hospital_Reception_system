@@ -1,0 +1,18 @@
+# Hospital Reception System
+# Python Dependencies
+
+# Desktop GUI
+customtkinter>=5.2,<6
+
+# Image Support
+Pillow>=10,<13
+
+# Data Analysis
+pandas>=2.2,<3
+numpy>=1.26,<3
+
+# Graphs and Analytics
+matplotlib>=3.8,<4
+
+# PDF Receipt Generation
+reportlab>=4.2,<5
